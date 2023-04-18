@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+  }
+  body{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(140, 140, 241), rgb(255, 248, 248));
+    min-height: 100vh; 
+}
+
+  main{
+    
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+  }
+  .pokedex{
+    width: 100%;
+    max-width: 430px;
+
+  }
+  .img_pokemon{
+   position: absolute;
+   bottom: 55%;
+   left: 50%;
+   transform: translate(-63%, 20%);
+   height: 18%;
+     
+  }
+  .pokemon__data{
+    position: absolute;
+    font-weight: 600;
+    color: rgb(133, 133, 130);
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px)
+  }
+  .pokemon__name{
+    color: rgb(61, 52, 52);
+    text-transform: capitalize;
+
+  }
+  .form{
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0) ;
+    width: 65%;
+    top: 65%;
+    left:13.5% 
+ }
+ .search-input{
+    width: 100%;
+    
+    border-radius: 9px;
+    margin-right: 20%;
+    padding: 3.5%;
+    border: 3px solid black ;
+    font-weight: 600;
+    color: rgb(54, 50, 50);
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 2px #888, -5px 6px 3px #333
+    
+ }
+ .buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+ }
+ .button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: #003af8;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+
+ }
+ button:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+ }
+ .icone{
+     position: absolute;
+     width: 15%;
+     bottom: 1%;
+     right: 60%;
+     left: 84%;
+    
+ }
+ icone:active i{
+  color: #003af8;
+  font-size: 0.9rem;
+ }
