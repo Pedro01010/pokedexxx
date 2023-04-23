@@ -3,5 +3,5 @@
 <div>
   <section> Pokedexxx é um projeto feito com javascript puro e com uma interação com a API (https://pokeapi.co/). <br>
   Onde carrego os efeitos as animações e os pokemons <br><br>
-  * Digitanto o Número ou o Nome do pokemon!
+  - Digitanto o Número ou o Nome do pokemon!
   
